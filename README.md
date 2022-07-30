@@ -29,7 +29,7 @@ Confirm you have the following installations, or follow these instructions:
    ```
 
 ------
-### Starting the Backend Service
+### Starting the Frontend Service
 ------
 1. CD to the root repository directory created in **Setup - Step 1**.
    ```
