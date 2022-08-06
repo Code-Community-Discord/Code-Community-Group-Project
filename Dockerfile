@@ -7,4 +7,4 @@ RUN npm install
 # installs the dependencies listed in package.json
 COPY . .
 # copies installed files over
-CMD [ "npm", "start" ]
+CMD [ "npm", "run", "dev" ]

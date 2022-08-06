@@ -1,4 +1,4 @@
-# Code Community Group Project
+# Code Community Open Source Project
 
 ## About 
 
