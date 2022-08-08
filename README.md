@@ -6,7 +6,8 @@ Our group project is a web application that allows you to join and create social
 
 ## Built With
 
-* [Create-React-App](https://create-react-app.dev/)
+* [NextJS](https://nextjs.org/)
+* [ReactJS](https://reactjs.org/)
 
 # For Contributors
 
