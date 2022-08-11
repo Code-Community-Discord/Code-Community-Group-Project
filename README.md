@@ -30,7 +30,7 @@ Confirm you have the following installations, or follow these instructions:
    ```
 
 ------
-### Starting the Backend Service
+### Starting the Frontend Service
 ------
 1. CD to the root repository directory created in **Setup - Step 1**.
    ```
@@ -42,17 +42,12 @@ Confirm you have the following installations, or follow these instructions:
    docker build -t code_community_frontend .
    ```
 
-3. Identify the docker container id:
+3. Start the container: 
    ```
-   docker ps -a
-   ```
-
-4. Start the container: 
-   ```
-   docker run -it -p 3000:3000 <container-id>
+   docker run -it -p 3000:3000 code_community_frontend
    ```
 
-5. Et Voila! Feel free to start adding to the project.
+4. Et Voila! Feel free to start adding to the project.
 
 ## Development Guide
 
