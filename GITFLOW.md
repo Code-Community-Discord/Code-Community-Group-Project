@@ -41,15 +41,32 @@ Git prompts are also provided to address common requests.
 
 ### Make this first step a habit
 ------
-Before writing any code, it's a good idea to pull the latest updates from the main branch.
-* Checkout your branch to your working directory. 
+Before writing any code, it's a good idea to pull the latest updates from the remote repository into your local main branch, and merge those updates into the branch you're working on.
+* Fetch the latest project updates.
+    ```
+    git fetch
+    ```
+* Checkout the main branch.
+    ```
+    git checkout main
+    ```
+* Pull the latest changes.
+    ```
+    git pull
+    ```
+* Checkout your branch.
     ```
     git checkout <your_branch_name>
     ```
-* Pull the latest code from the main branch to your local repository. 
+* Pull the latest changes from your branch, if any.
     ```
-    git pull origin main
+    git pull
     ```
+* Merge your the main branch into your working branch. 
+    ```
+    git merge <your_branch> main
+    ```
+    *This command essentially means: git merge "THIS_branch" with what's in "THAT_branch"*
 * Work on your changes to the project. 
 
 ### Submitting Changes 
