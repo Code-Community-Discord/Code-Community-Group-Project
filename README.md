@@ -6,7 +6,8 @@ This open source project is a web application that allows you to join and create
 
 ## Built With
 
-* [Create-React-App](https://create-react-app.dev/)
+* [NextJS](https://nextjs.org/)
+* [ReactJS](https://reactjs.org/)
 
 # For Contributors
 
@@ -41,17 +42,12 @@ Confirm you have the following installations, or follow these instructions:
    docker build -t code_community_frontend .
    ```
 
-3. Identify the docker container id:
+3. Start the container: 
    ```
-   docker ps -a
-   ```
-
-4. Start the container: 
-   ```
-   docker run -it -p 3000:3000 <container-id>
+   docker run -it -p 3000:3000 code_community_frontend
    ```
 
-5. Et Voila! Feel free to start adding to the project.
+4. Et Voila! Feel free to start adding to the project.
 
 ## Development Guide
 
