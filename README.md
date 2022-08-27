@@ -2,7 +2,7 @@
 
 ## About 
 
-Our group project is a web application that allows you to join and create social communities.
+This open source project is a web application that allows you to join and create social communities.
 
 ## Built With
 
@@ -26,7 +26,7 @@ Confirm you have the following installations, or follow these instructions:
 
 1. Clone the project's repository into the directory of your choice: 
    ```
-   git clone https://github.com/Code-Community-Discord/Code-Community-Group-Project-Frontend.git
+   git clone https://github.com/Code-Community-Discord/Code-Community-Open-Source-Project-Frontend.git
    ```
 
 ------
@@ -34,7 +34,7 @@ Confirm you have the following installations, or follow these instructions:
 ------
 1. CD to the root repository directory created in **Setup - Step 1**.
    ```
-   cd "(chosen directory)\Code-Community-Group-Project-Frontend"
+   cd "(chosen directory)\Code-Community-Open-Source-Project-Frontend"
    ```
 
 2. Build the Docker container:
