@@ -1,0 +1,11 @@
+.formCard {
+  composes: card from '../../styles/lib/Card.module.css';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form {
+  composes: form from '../../styles/lib/Form.module.css';
+}

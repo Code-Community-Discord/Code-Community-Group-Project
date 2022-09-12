@@ -1,0 +1,6 @@
+.main {
+    /* src: https://stackoverflow.com/a/15022326/12369650 */
+    /* https://stackoverflow.com/questions/53654888 */
+    height: calc((var(--footer-height) * -1) + 100%);
+    position: relative;
+}

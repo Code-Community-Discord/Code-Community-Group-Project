@@ -1,26 +1,69 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+:root {
+  --light-yellow: #FFEEB2;
+  --yellow: #FCC400;
+  --dark-yellow: #CA9D00;
+
+  --light-red: #F8AFAE;
+  --red: #F80300;
+  --dark-red: #BF0806;
+
+  --light-navy: #7B95CC;
+  --navy: #343f56;
+  --dark-navy: #0F131A;
+
+  --gray: #d6d1d1;
+
+  --heading: 'Norwester';
+  --sub-heading: 'Kollektif';
+  --body: 'Montserrat';
+
+  --border-radius: 10px;
+  --footer-height: 7.5rem;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
 
-* {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+* {
+  margin: 0;
+}
+
+html, body {
+  font-family: Tahoma;
+  font-family: var(--body);
+  height: 100vh;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* src: https://gist.github.com/dmurawsky/d45f068097d181c733a53687edce1919 */
+div#__next,
+div#__next > div {
+  height: 100%;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
 }

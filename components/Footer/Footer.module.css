@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+    height: var(--footer-height);
+    background-color: var(--navy);
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+  
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .footer {
+        flex-direction: row;
+        padding: 2rem;
+    }
+}
